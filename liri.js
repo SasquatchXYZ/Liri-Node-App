@@ -1,6 +1,5 @@
 require("dotenv").config();
 
-
 let fs = require("fs");
 let request = require("request");
 let moment = require("moment");
@@ -25,14 +24,14 @@ if (command === `concert-this`) {
 
     request(queryURL, function(error, response, data) {
         if (!error && response.statusCode === 200) {
-            //console.log(data);
             let results = JSON.parse(data);
-            console.log(results);
-            console.log(results.length);
+            //console.log(results);
+            //console.log(results.length);
             for (var k = 0; k < results.length; k++) {
+                console.log(`=======================================`);
                 console.log(`Venue Name: ${results[k].venue.name}`);
                 console.log(`Venue Location: ${results[k].venue.city}, ${results[k].venue.country}`);
-                console.log(``);
+                console.log(`Date: ${moment(results[k].datetime).format("MM/DD/YYYY")}`);
             }
         }
     });
@@ -73,6 +72,8 @@ if (command === `concert-this`) {
             console.log(`Actors: ${JSON.parse(body).Actors}`);
         }
     });
+
+} else if (command === `do-what-it-says`) {
 
 }
 

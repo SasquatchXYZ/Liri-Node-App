@@ -1,11 +1,12 @@
 # LIRI-Node-App
-####Homework Assignment 10 - Node.js
+
+##### Homework Assignment 10 - Node.js
 
 LIRI is somewhat akin to SIRI; however, while SIRI is a "Speech Interpretation and Recognition Interface", LIRI is a "Language Interpretation and Recognition Interface".  LIRI is a command line node application that is used to provide you with data given certain parameters and requests.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -65,10 +66,14 @@ This prompts LIRI to query the Spotify API for the song name, where it will then
 movie-this <movie title here>
 ```
 
+This will query the OMDB API for the movie title, year of release, ratings, country, language, plot, and actors in the movie.  (If no movie is entered, it will display the information for 'Mr. Nobody").
 
 ```
 do-what-it-says
 ```
+
+This will cause LIRI to read from the 'random.txt' file included in the repo and then she will perform one of the commands based on the data included in that file.
+
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - Runtime Environment

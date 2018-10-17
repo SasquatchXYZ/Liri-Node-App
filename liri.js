@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 let fs = require("fs");
+let stream = fs.createWriteStream("log.txt", {flags: "a"});
 let request = require("request");
 let moment = require("moment");
 let keys = require("./keys");
@@ -48,11 +49,23 @@ function queryBandsInTown() {
             //console.log(results);
             //console.log(results.length);
             for (var k = 0; k < results.length; k++) {
+                let concerts = {};
+                concerts.venue = results[k].venue.name;
+                concerts.location = `${results[k].venue.city}, ${results[k].venue.country}`;
+                concerts.date = moment(results[k].datetime).format("MM/DD/YYYY");
                 console.log(`=======================================`);
-                console.log(`Venue Name: ${results[k].venue.name}`);
+                console.log(concerts);
+
+                stream.write(`${JSON.stringify(concerts)}\n`);
+                /*console.log(`Venue Name: ${concerts.venue}`);
+                console.log(`Venue Location: ${concerts.location}`);
+                console.log(`Date: ${concerts.date}`);*/
+
+                /*console.log(`Venue Name: ${results[k].venue.name}`);
                 console.log(`Venue Location: ${results[k].venue.city}, ${results[k].venue.country}`);
-                console.log(`Date: ${moment(results[k].datetime).format("MM/DD/YYYY")}`);
+                console.log(`Date: ${moment(results[k].datetime).format("MM/DD/YYYY")}`);*/
             }
+            stream.end();
         }
     });
 }
@@ -114,6 +127,16 @@ function queryRandom() {
         queryAPIS();
 
     })
+}
+// =====================================================================================================================
+function appendLog(data) {
+    /*fs.appendFile("log.txt", data, function(error) {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log(`Log Updated.`)
+        }
+    })*/
 }
 
 

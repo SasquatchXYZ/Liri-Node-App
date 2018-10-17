@@ -9,7 +9,7 @@ let Spotify = require("node-spotify-api");
 let spotify = new Spotify(keys.spotify);
 // console.log(spotify);
 
-const command= process.argv[2];
+let command= process.argv[2];
 let parameter = [];
 for (k = 3; k < process.argv.length; k++) {
     parameter.push(process.argv[k]);
@@ -74,7 +74,18 @@ if (command === `concert-this`) {
     });
 
 } else if (command === `do-what-it-says`) {
-
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+            return console.log(error);
+        }
+        //console.log(data);
+        var randomArray = data.split(",");
+        console.log(randomArray);
+        command = randomArray[0];
+        console.log(command);
+        parameter = randomArray[1];
+        console.log(parameter);
+    })
 }
 
 

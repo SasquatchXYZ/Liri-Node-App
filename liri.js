@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 let fs = require("fs");
-let stream = fs.createWriteStream("log.txt", {flags: "a"});
+
 let request = require("request");
 let moment = require("moment");
 let keys = require("./keys");
@@ -27,10 +27,13 @@ if (command === `do-what-it-says`) {
 
 function queryAPIS() {
     if (command === `concert-this`) {
+        appendLog((`${command} + ${parameter}`));
         queryBandsInTown();
     } else if (command === `spotify-this-song`) {
+        appendLog((`${command} + ${parameter}`));
         querySpotify();
     } else if (command === `movie-this`) {
+        appendLog((`${command} + ${parameter}`));
         queryOMDB();
     }
 }
@@ -56,7 +59,7 @@ function queryBandsInTown() {
                 console.log(`=======================================`);
                 console.log(concerts);
 
-                stream.write(`${JSON.stringify(concerts)}\n`);
+                appendLog(JSON.stringify(concerts));
                 /*console.log(`Venue Name: ${concerts.venue}`);
                 console.log(`Venue Location: ${concerts.location}`);
                 console.log(`Date: ${concerts.date}`);*/
@@ -65,7 +68,6 @@ function queryBandsInTown() {
                 console.log(`Venue Location: ${results[k].venue.city}, ${results[k].venue.country}`);
                 console.log(`Date: ${moment(results[k].datetime).format("MM/DD/YYYY")}`);*/
             }
-            stream.end();
         }
     });
 }
@@ -80,11 +82,20 @@ function querySpotify() {
         let result = data.tracks.items;
         /*console.log(result);*/
         let disc = result[0];
-        console.log(`Artist: ${disc.artists[0].name}`); //Band Name
+        let songDetails = {};
+        songDetails.artist = disc.artists[0].name;
+        songDetails.title = disc.name;
+        songDetails.previewLink = disc.preview_url;
+        songDetails.album = disc.album.name;
+        console.log(songDetails);
+
+        appendLog(JSON.stringify(songDetails));
+        /*console.log(`Artist: ${disc.artists[0].name}`); //Band Name
         console.log(`Song Title: ${disc.name}`); //Song Name
         console.log(`Preview Link: ${disc.preview_url}`); //Preview URL
-        console.log(`Album Title: ${disc.album.name}`); //Album Title
+        console.log(`Album Title: ${disc.album.name}`); //Album Title*/
     });
+
 }
 // =====================================================================================================================
 function queryOMDB() {
@@ -130,6 +141,9 @@ function queryRandom() {
 }
 // =====================================================================================================================
 function appendLog(data) {
+    let stream = fs.createWriteStream("log.txt", {flags: "a"});
+    stream.write(`${data}\n`);
+    stream.end();
     /*fs.appendFile("log.txt", data, function(error) {
         if (error) {
             console.log(error);

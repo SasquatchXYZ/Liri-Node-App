@@ -74,6 +74,8 @@ do-what-it-says
 
 This will cause LIRI to read from the 'random.txt' file included in the repo and then she will perform one of the commands based on the data included in that file.
 
+Additionally, the search parameters, along with the corresponding data returned from the APIs is written to the 'log.txt' file.
+
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - Runtime Environment

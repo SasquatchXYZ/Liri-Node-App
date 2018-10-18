@@ -23,7 +23,6 @@ if (command === `do-what-it-says`) {
     queryAPIS();
 }
 
-
 function queryAPIS() {
     if (command === `concert-this`) {
         appendLog((`${command} + ${parameter}`));
@@ -37,8 +36,35 @@ function queryAPIS() {
     }
 }
 
+// Function to Log the Query Commands as well as the Data returned to the 'log.txt' file.
+// This logging is done using '.createWriteStream' in order to allow the loops
+// to write large portions of data to the file.
 
-// Functions ===========================================================================================================
+function appendLog(data) {
+    let stream = fs.createWriteStream("log.txt", {flags: "a"});
+    stream.write(`${data}\n`);
+    stream.end();
+}
+
+// Query Functions =====================================================================================================
+function queryRandom() {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+            return console.log(error);
+        }
+        console.log(data);
+        var randomArray = data.split(",");
+        //console.log(randomArray);
+        command = randomArray[0];
+        parameter = randomArray[1].replace(/"/g, "").split(" ");
+        console.log(command, parameter);
+
+        queryAPIS();
+
+    })
+}
+
+// =====================================================================================================================
 function queryBandsInTown() {
     let artist = parameter.join("%20");
     let queryURL = `https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`;
@@ -68,6 +94,7 @@ function queryBandsInTown() {
         }
     });
 }
+
 // =====================================================================================================================
 function querySpotify() {
     let songTitle = parameter.join(" ");
@@ -92,10 +119,9 @@ function querySpotify() {
         console.log(`Song Title: ${songDetails.title}`);
         console.log(`Preview Link: ${songDetails.previewLink}`);
         console.log(`Album Title: ${songDetails.album}`);*/
-
     });
-
 }
+
 // =====================================================================================================================
 function queryOMDB() {
     let movieTitle = parameter.join("+");
@@ -134,28 +160,3 @@ function queryOMDB() {
         }
     });
 }
-// =====================================================================================================================
-function queryRandom() {
-    fs.readFile("random.txt", "utf8", function(error, data) {
-        if (error) {
-            return console.log(error);
-        }
-        console.log(data);
-        var randomArray = data.split(",");
-        //console.log(randomArray);
-        command = randomArray[0];
-        parameter = randomArray[1].replace(/"/g, "").split(" ");
-        console.log(command, parameter);
-
-        queryAPIS();
-
-    })
-}
-// =====================================================================================================================
-function appendLog(data) {
-    let stream = fs.createWriteStream("log.txt", {flags: "a"});
-    stream.write(`${data}\n`);
-    stream.end();
-}
-
-

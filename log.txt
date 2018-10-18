@@ -1,0 +1,10 @@
+movie-this + hotel,artemis
+{"title":"Hotel Artemis","releaseYear":"2018","imdbRating":"6.3/10","rottenTomatoesRating":"58%","country":"UK, USA","language":"English, French","plot":"Set in riot-torn, near-future Los Angeles, 'Hotel Artemis' follows the Nurse, who runs a secret, members-only emergency room for criminals.","actors":"Jodie Foster, Sterling K. Brown, Sofia Boutella, Jeff Goldblum"}
+movie-this + hotel,artemis
+{"title":"Hotel Artemis","releaseYear":"2018","imdbRating":"6.3/10","rottenTomatoesRating":"58%","country":"UK, USA","language":"English, French","plot":"Set in riot-torn, near-future Los Angeles, 'Hotel Artemis' follows the Nurse, who runs a secret, members-only emergency room for criminals.","actors":"Jodie Foster, Sterling K. Brown, Sofia Boutella, Jeff Goldblum"}
+movie-this + hotel,artemis
+{"title":"Hotel Artemis","releaseYear":"2018","imdbRating":"6.3/10","rottenTomatoesRating":"58%","country":"UK, USA","language":"English, French","plot":"Set in riot-torn, near-future Los Angeles, 'Hotel Artemis' follows the Nurse, who runs a secret, members-only emergency room for criminals.","actors":"Jodie Foster, Sterling K. Brown, Sofia Boutella, Jeff Goldblum"}
+movie-this + 
+{"title":"Mr. Nobody","releaseYear":"2009","imdbRating":"7.9/10","rottenTomatoesRating":"67%","country":"Belgium, Germany, Canada, France, USA, UK","language":"English, Mohawk","plot":"A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.","actors":"Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham"}
+movie-this + solo,a,star,wars,story
+{"title":"Solo: A Star Wars Story","releaseYear":"2018","imdbRating":"7.0/10","rottenTomatoesRating":"70%","country":"USA","language":"English","plot":"During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.","actors":"Alden Ehrenreich, Joonas Suotamo, Woody Harrelson, Emilia Clarke"}

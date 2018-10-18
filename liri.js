@@ -16,6 +16,8 @@ for (k = 3; k < process.argv.length; k++) {
 }
 console.log(command, parameter);
 
+// If the initial command given is 'do-what-it-says' we first need to read from the 'random.txt' file in order to
+// determine exactly what is specified in the file and to run the proper query for the data found there.
 
 if (command === `do-what-it-says`) {
     queryRandom();
@@ -23,6 +25,7 @@ if (command === `do-what-it-says`) {
     queryAPIS();
 }
 
+// Function for discerning which API it is that we need to Query.
 function queryAPIS() {
     if (command === `concert-this`) {
         appendLog((`${command} + ${parameter}`));
@@ -119,6 +122,7 @@ function querySpotify() {
         console.log(`Song Title: ${songDetails.title}`);
         console.log(`Preview Link: ${songDetails.previewLink}`);
         console.log(`Album Title: ${songDetails.album}`);*/
+
     });
 }
 
@@ -135,6 +139,8 @@ function queryOMDB() {
 
     request(queryURL, function(error, response, body) {
         if (!error && response.statusCode === 200) {
+            //console.log(JSON.parse(body));
+
             let moviedata = {};
             moviedata.title = JSON.parse(body).Title;
             moviedata.releaseYear = JSON.parse(body).Year;
@@ -148,15 +154,16 @@ function queryOMDB() {
             console.log(moviedata);
 
             appendLog(JSON.stringify(moviedata));
-            //console.log(JSON.parse(body));
-            /*console.log(`Title: ${JSON.parse(body).Title}`);
-            console.log(`Year Released: ${JSON.parse(body).Year}`);
-            console.log(`IMDB Rating: ${JSON.parse(body).Ratings[0].Value}`);
-            console.log(`Rotten Tomatoes Rating; ${JSON.parse(body).Ratings[1].Value}`);
-            console.log(`Country: ${JSON.parse(body).Country}`);
-            console.log(`Language: ${JSON.parse(body).Language}`);
-            console.log(`Plot: ${JSON.parse(body).Plot}`);
-            console.log(`Actors: ${JSON.parse(body).Actors}`);*/
+
+            /*console.log(`Title: ${moviedata.title}`);
+            console.log(`Year Released: ${moviedata.releaseYear}`);
+            console.log(`IMDB Rating: ${moviedata.imdbRating}`);
+            console.log(`Rotten Tomatoes Rating; ${moviedata.rottenTomatoesRating}`);
+            console.log(`Country: ${moviedata.country}`);
+            console.log(`Language: ${moviedata.language}`);
+            console.log(`Plot: ${moviedata.plot}`);
+            console.log(`Actors: ${moviedata.actors}`);*/
+
         }
     });
 }

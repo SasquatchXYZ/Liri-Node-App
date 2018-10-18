@@ -76,6 +76,8 @@ This will cause LIRI to read from the 'random.txt' file included in the repo and
 
 Additionally, the search parameters, along with the corresponding data returned from the APIs is written to the 'log.txt' file.
 
+(I chose to leave in some of the portions of commented-out code in the functions that would log the data to the console.  This was the original method for printing the data to the console, however I chose to simply log the object due to the fact that color difference allowed the data to be easier to read.)
+
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - Runtime Environment

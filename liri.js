@@ -1,7 +1,6 @@
 require("dotenv").config();
 
 let fs = require("fs");
-
 let request = require("request");
 let moment = require("moment");
 let keys = require("./keys");
@@ -60,13 +59,11 @@ function queryBandsInTown() {
                 console.log(concerts);
 
                 appendLog(JSON.stringify(concerts));
+
                 /*console.log(`Venue Name: ${concerts.venue}`);
                 console.log(`Venue Location: ${concerts.location}`);
                 console.log(`Date: ${concerts.date}`);*/
 
-                /*console.log(`Venue Name: ${results[k].venue.name}`);
-                console.log(`Venue Location: ${results[k].venue.city}, ${results[k].venue.country}`);
-                console.log(`Date: ${moment(results[k].datetime).format("MM/DD/YYYY")}`);*/
             }
         }
     });
@@ -90,10 +87,12 @@ function querySpotify() {
         console.log(songDetails);
 
         appendLog(JSON.stringify(songDetails));
-        /*console.log(`Artist: ${disc.artists[0].name}`); //Band Name
-        console.log(`Song Title: ${disc.name}`); //Song Name
-        console.log(`Preview Link: ${disc.preview_url}`); //Preview URL
-        console.log(`Album Title: ${disc.album.name}`); //Album Title*/
+
+        /*console.log(`Artist: ${songDetails.artist}`);
+        console.log(`Song Title: ${songDetails.title}`);
+        console.log(`Preview Link: ${songDetails.previewLink}`);
+        console.log(`Album Title: ${songDetails.album}`);*/
+
     });
 
 }
@@ -157,13 +156,6 @@ function appendLog(data) {
     let stream = fs.createWriteStream("log.txt", {flags: "a"});
     stream.write(`${data}\n`);
     stream.end();
-    /*fs.appendFile("log.txt", data, function(error) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log(`Log Updated.`)
-        }
-    })*/
 }
 
 

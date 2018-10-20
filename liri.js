@@ -6,7 +6,9 @@ let moment = require("moment");
 let keys = require("./keys");
 let Spotify = require("node-spotify-api");
 
+const bandsAPIkey = "codingbootcamp";
 let spotify = new Spotify(keys.spotify);
+const omdbAPIkey = "trilogy";
 // console.log(spotify);
 
 let command = process.argv[2];
@@ -87,7 +89,7 @@ function queryRandom() {
 // =====================================================================================================================
 function queryBandsInTown() {
     let artist = parameter.join("%20");
-    let queryURL = `https://rest.bandsintown.com/artists/${artist}/events?app_id=codingbootcamp`;
+    let queryURL = `https://rest.bandsintown.com/artists/${artist}/events?app_id=${bandsAPIkey}`;
     console.log(artist);
     console.log(queryURL);
 
@@ -152,7 +154,7 @@ function queryOMDB() {
     }
     //console.log(movieTitle);
 
-    let queryURL = `http://www.omdbapi.com/?t=${movieTitle}&y=&plot=short&apikey=trilogy`;
+    let queryURL = `http://www.omdbapi.com/?t=${movieTitle}&y=&plot=short&apikey=${omdbAPIkey}`;
 
     request(queryURL, function (error, response, body) {
         if (!error && response.statusCode === 200) {

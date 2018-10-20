@@ -214,3 +214,15 @@ Search: concert-this + good,charlotte
 {"venue":"Poppodium 013","location":"Tilburg, Netherlands","date":"02/18/2019"}
 {"venue":"Alexandra Palace","location":"London, United Kingdom","date":"02/20/2019"}
 {"venue":"Rockhal","location":"Roeser, Luxembourg","date":"02/15/2019"}
+Search: spotify-this-song + your,love
+{"artist":"Adele","title":"Send My Love (To Your New Lover)","previewLink":"https://p.scdn.co/mp3-preview/2f7c4f6de9f5a25ed2d59d353c62a06c2ac57c96?cid=b6f059acda4a45c59d10e0d802be10f1","album":"25"}
+{"artist":"Lil Peep","title":"Sunlight On Your Skin","previewLink":"https://p.scdn.co/mp3-preview/f313de63a04389bd411f39c1db7c86cd757b29a5?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Sunlight On Your Skin"}
+{"artist":"YoungBoy Never Broke Again","title":"Show Me Your Love","previewLink":"https://p.scdn.co/mp3-preview/d982233456ad39fb1689f77b1d9d902e6313859e?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Master The Day Of Judgement"}
+{"artist":"Brett Eldredge","title":"Drunk On Your Love","previewLink":"https://p.scdn.co/mp3-preview/e4c9a61acbaed8f2935ca58d652873980692797e?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Illinois"}
+{"artist":"The Outfield","title":"Your Love","previewLink":"https://p.scdn.co/mp3-preview/64b40882777bd5035561a52c8c8886e24c803935?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Super Hits"}
+Search: spotify-this-song + misery,business
+{"artist":"Paramore","title":"Misery Business","previewLink":"https://p.scdn.co/mp3-preview/d4aacf7e02038a401759df9a908756e4f71de0fb?cid=b6f059acda4a45c59d10e0d802be10f1","album":"RIOT!"}
+{"artist":"Paramore","title":"Misery Business - Acoustic Version","previewLink":"https://p.scdn.co/mp3-preview/ea17b98478410a4f8c95dec61fe2bd29db34a7fb?cid=b6f059acda4a45c59d10e0d802be10f1","album":"RIOT!"}
+{"artist":"Paramore","title":"Misery Business - Live From Chicago","previewLink":"https://p.scdn.co/mp3-preview/c8d0434b251c8ba1a27b19a3b260897d878067c8?cid=b6f059acda4a45c59d10e0d802be10f1","album":"The Final RIOT! (Live)"}
+{"artist":"Cole Rolland","title":"Misery Business (Feat. Lauren Babic and Andrew Baena)","previewLink":"https://p.scdn.co/mp3-preview/d5ec9a855678339ee3b96d2883740787351e6da7?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Cole Rolland Remixes Vol. 2"}
+{"artist":"Sea Of Treachery","title":"Misery Business (Cover Version)","previewLink":"https://p.scdn.co/mp3-preview/de08bdf2905ba74c4fdf630bffae0ea216cf5111?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Wonderland"}

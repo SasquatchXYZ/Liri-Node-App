@@ -121,27 +121,29 @@ function queryBandsInTown() {
 function querySpotify() {
     let songTitle = parameter.join(" ");
     //console.log(songTitle);
-    spotify.search({type: `track`, query: `${songTitle}`, limit: 1}, function (error, data) {
+    spotify.search({type: `track`, query: `${songTitle}`, limit: 5}, function (error, data) {
         if (error) {
             return console.log(`Error Occurred: ${error}`);
         }
-        let result = data.tracks.items;
+        let resultArray = data.tracks.items;
         /*console.log(result);*/
-        let disc = result[0];
-        let songDetails = {};
-        songDetails.artist = disc.artists[0].name;
-        songDetails.title = disc.name;
-        songDetails.previewLink = disc.preview_url;
-        songDetails.album = disc.album.name;
-        console.log(songDetails);
+        for (let w = 0; w < resultArray.length; w++) {
+            let songDetails = {};
+            songDetails.artist = resultArray[w].artists[0].name;
+            songDetails.title = resultArray[w].name;
+            songDetails.previewLink = resultArray[w].preview_url;
+            songDetails.album = resultArray[w].album.name;
 
-        appendLog(JSON.stringify(songDetails));
+            console.log(`==================================================================`);
+            console.log(songDetails);
 
-        /*console.log(`Artist: ${songDetails.artist}`);
+            appendLog(JSON.stringify(songDetails));
+
+            /*console.log(`Artist: ${songDetails.artist}`);
         console.log(`Song Title: ${songDetails.title}`);
         console.log(`Preview Link: ${songDetails.previewLink}`);
         console.log(`Album Title: ${songDetails.album}`);*/
-
+        }
     });
 }
 
@@ -163,6 +165,7 @@ function queryOMDB() {
             let moviedata = {};
             moviedata.title = JSON.parse(body).Title;
             moviedata.releaseYear = JSON.parse(body).Year;
+            moviedata.rated = JSON.parse(body).Rated;
             moviedata.imdbRating = JSON.parse(body).Ratings[0].Value;
             moviedata.rottenTomatoesRating = JSON.parse(body).Ratings[1].Value;
             moviedata.country = JSON.parse(body).Country;

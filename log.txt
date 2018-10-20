@@ -166,3 +166,51 @@ Search: concert-this + good,charlotte
 {"venue":"Poppodium 013","location":"Tilburg, Netherlands","date":"02/18/2019"}
 Search: movie-this + indiana,jones,and,the,last,crusade
 {"title":"Indiana Jones and the Last Crusade","releaseYear":"1989","imdbRating":"8.3/10","rottenTomatoesRating":"88%","country":"USA","language":"English, German, Greek, Arabic","plot":"In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against Adolf Hitler's Nazis again to stop them obtaining its powers.","actors":"Harrison Ford, Sean Connery, Denholm Elliott, Alison Doody"}
+Search: spotify-this-song + sussudio
+{"artist":"Phil Collins","title":"Sussudio - 2016 Remastered","previewLink":"https://p.scdn.co/mp3-preview/05704ed5afa7ffe0d66215cf61b33b6bf4270914?cid=b6f059acda4a45c59d10e0d802be10f1","album":"No Jacket Required (Remastered)"}
+Search: movie-this + indiana,jones,and,the,temple,of,doom
+{"title":"Indiana Jones and the Temple of Doom","releaseYear":"1984","imdbRating":"7.6/10","rottenTomatoesRating":"85%","country":"USA","language":"English, Sinhalese","plot":"In 1935, Indiana Jones arrives in India, still part of the British Empire, and is asked to find a mystical stone. He then stumbles upon a secret cult committing enslavement and human sacrifices in the catacombs of an ancient palace.","actors":"Harrison Ford, Kate Capshaw, Jonathan Ke Quan, Amrish Puri"}
+Search: concert-this + good,charlotte
+{"venue":"Phase 2 Dining & Entertainment","location":"Lynchburg, United States","date":"10/20/2018"}
+{"venue":"The Fillmore - Philadelphia","location":"Philadelphia, United States","date":"10/21/2018"}
+{"venue":"Palladium","location":"Worcester, United States","date":"10/23/2018"}
+{"venue":"REBEL","location":"Toronto, Canada","date":"10/25/2018"}
+{"venue":"MTELUS","location":"Montreal, Canada","date":"10/26/2018"}
+{"venue":"S.I. Hall - NYS Fairgrounds","location":"Syracuse, United States","date":"10/27/2018"}
+{"venue":"Terminal 5","location":"New York, United States","date":"10/29/2018"}
+{"venue":"The Fillmore Detroit","location":"Detroit, United States","date":"11/01/2018"}
+{"venue":"Agora Theater & Ballroom","location":"Cleveland, United States","date":"10/28/2018"}
+{"venue":"Express Live!","location":"Columbus, United States","date":"11/02/2018"}
+{"venue":"20 Monroe Live","location":"Grand Rapids, United States","date":"11/03/2018"}
+{"venue":"Skyway Theater","location":"Minneapolis, United States","date":"11/06/2018"}
+{"venue":"Riviera Theatre","location":"Chicago, United States","date":"11/04/2018"}
+{"venue":"Aztec Theatre","location":"San Antonio, United States","date":"11/10/2018"}
+{"venue":"House of Blues Houston","location":"Houston, United States","date":"11/12/2018"}
+{"venue":"House of Blues Dallas","location":"Dallas, United States","date":"11/11/2018"}
+{"venue":"Rockwell At The Complex","location":"Salt Lake City, United States","date":"11/15/2018"}
+{"venue":"Roseland Theater","location":"Portland, United States","date":"11/17/2018"}
+{"venue":"Revolution Concert House","location":"Garden City, United States","date":"11/16/2018"}
+{"venue":"Ogden Theatre","location":"Denver, United States","date":"11/14/2018"}
+{"venue":"The Warfield","location":"San Francisco, United States","date":"11/20/2018"}
+{"venue":"Hollywood Palladium","location":"Los Angeles, United States","date":"11/21/2018"}
+{"venue":"The Van Buren","location":"Phoenix, United States","date":"11/23/2018"}
+{"venue":"Pearl Concert Theater at Palms Casino Resort","location":"Las Vegas, United States","date":"11/24/2018"}
+{"venue":"Showbox SoDo","location":"Seattle, United States","date":"11/18/2018"}
+{"venue":"Diamond Ballroom","location":"Oklahoma City, United States","date":"11/27/2018"}
+{"venue":"Sunshine Theater","location":"Albuquerque, United States","date":"11/26/2018"}
+{"venue":"Arvest Bank Theatre At the Midland","location":"Kansas City, United States","date":"11/28/2018"}
+{"venue":"Planet.tt Bank Austria Halle Gasometer","location":"Wien, Austria","date":"01/31/2019"}
+{"venue":"Komplex 457","location":"Zurich, Switzerland","date":"02/01/2019"}
+{"venue":"Alcatraz","location":"Milan, Italy","date":"02/03/2019"}
+{"venue":"Zenith, die Kulturhalle","location":"Munchen, Germany","date":"02/04/2019"}
+{"venue":"Palladium","location":"Koln, Germany","date":"02/05/2019"}
+{"venue":"Ancienne Belgique","location":"Brussels, Belgium","date":"02/07/2019"}
+{"venue":"Zenith Paris - La Villette","location":"Paris, France","date":"02/08/2019"}
+{"venue":"Stadthalle Offenbach","location":"Offenbach Am Main, Germany","date":"02/09/2019"}
+{"venue":"Forum Karlin","location":"Prague, Czech Republic","date":"02/11/2019"}
+{"venue":"Klub Stodoła","location":"Warsaw, Poland","date":"02/12/2019"}
+{"venue":"Columbiahalle","location":"Berlin, Germany","date":"02/13/2019"}
+{"venue":"sporthalle hamburg","location":"Hamburg-nord, Germany","date":"02/16/2019"}
+{"venue":"Poppodium 013","location":"Tilburg, Netherlands","date":"02/18/2019"}
+{"venue":"Alexandra Palace","location":"London, United Kingdom","date":"02/20/2019"}
+{"venue":"Rockhal","location":"Roeser, Luxembourg","date":"02/15/2019"}

@@ -103,7 +103,7 @@ function queryBandsInTown() {
                 concerts.venue = results[k].venue.name;
                 concerts.location = `${results[k].venue.city}, ${results[k].venue.country}`;
                 concerts.date = moment(results[k].datetime).format("MM/DD/YYYY");
-                console.log(`=======================================`);
+                console.log(`==================================================================`);
                 console.log(concerts);
 
                 appendLog(JSON.stringify(concerts));

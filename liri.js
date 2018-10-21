@@ -1,13 +1,13 @@
 require("dotenv").config();
 
-let fs = require("fs");
-let request = require("request");
-let moment = require("moment");
-let keys = require("./keys");
-let Spotify = require("node-spotify-api");
+const fs = require("fs");
+const request = require("request");
+const moment = require("moment");
+const keys = require("./keys");
+const Spotify = require("node-spotify-api");
 
 const bandsAPIkey = "codingbootcamp";
-let spotify = new Spotify(keys.spotify);
+const spotify = new Spotify(keys.spotify);
 const omdbAPIkey = "trilogy";
 // console.log(spotify);
 

@@ -98,3 +98,7 @@ Search: spotify-this-song + I,Want,it,That,Way
 {"artist":"Tyler and Mark","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Beautiful Dreams"}
 
 {"artist":"Manuel Costa","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=b6f059acda4a45c59d10e0d802be10f1","album":"I Want It That Way"}
+
+Search: movie-this + the,empire,strikes,back
+
+{"title":"Star Wars: Episode V - The Empire Strikes Back","releaseYear":"1980","rated":"PG","imdbRating":"8.8/10","rottenTomatoesRating":"95%","country":"USA","language":"English","plot":"After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"}

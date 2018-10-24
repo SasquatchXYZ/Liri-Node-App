@@ -291,3 +291,103 @@ Search: spotify-this-song + Masterpiece,theatre
 {"artist":"Marianas Trench","title":"Celebrity Status","previewLink":"https://p.scdn.co/mp3-preview/ccc3e20cded8ee973adb96a9b74975956ac1a082?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theatre"}
 Search: movie-this + deadpool
 {"title":"Deadpool","releaseYear":"2016","rated":"R","imdbRating":"8.0/10","rottenTomatoesRating":"84%","country":"USA","language":"English","plot":"A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.","actors":"Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer"}
+Search: movie-this + Star,Wars
+{"title":"Star Wars: Episode IV - A New Hope","releaseYear":"1977","rated":"PG","imdbRating":"8.6/10","rottenTomatoesRating":"93%","country":"USA","language":"English","plot":"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the evil Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing"}
+
+Search: spotify-this-song + All,I,Want
+
+{"artist":"Kodaline","title":"All I Want","previewLink":"https://p.scdn.co/mp3-preview/ee5e210cdea9f22e545ea435c0467dcecdeb41ca?cid=b6f059acda4a45c59d10e0d802be10f1","album":"In A Perfect World"}
+
+{"artist":"Mariah Carey","title":"All I Want for Christmas Is You","previewLink":"https://p.scdn.co/mp3-preview/ab4f06069148ef8510d8681164479601d4617bed?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Merry Christmas"}
+
+{"artist":"A Day To Remember","title":"All I Want","previewLink":"https://p.scdn.co/mp3-preview/ec7325d3313463c07588444c5d14508289a35089?cid=b6f059acda4a45c59d10e0d802be10f1","album":"What Separates Me From You"}
+
+{"artist":"Miguel","title":"Sure Thing","previewLink":"https://p.scdn.co/mp3-preview/d2ea23d1d8efbf0312ef066c20593be68b081b8a?cid=b6f059acda4a45c59d10e0d802be10f1","album":"All I Want Is You"}
+
+{"artist":"$uicideBoy$","title":"WAR TIME ALL THE TIME","previewLink":null,"album":"I Want To Die In New Orleans"}
+
+Search: concert-this + Panic,at,the,disco
+
+{"venue":"ZEPP Osaka Bayside","location":"Osaka, Japan","date":"10/25/2018"}
+
+{"venue":"Corona Capital 2018","location":"Mexico City, Mexico","date":"11/17/2018"}
+
+{"venue":"KeyBank Center","location":"Buffalo, United States","date":"01/10/2019"}
+
+{"venue":"Place Bell","location":"Laval, Canada","date":"01/12/2019"}
+
+{"venue":"SNHU Arena","location":"Manchester, United States","date":"01/13/2019"}
+
+{"venue":"Times Union Center","location":"Albany, United States","date":"01/15/2019"}
+
+{"venue":"Prudential Center","location":"Newark, United States","date":"01/18/2019"}
+
+{"venue":"Dunkin' Donuts Center","location":"Providence, United States","date":"01/19/2019"}
+
+{"venue":"Capital One Arena","location":"Washington, United States","date":"01/20/2019"}
+
+{"venue":"Spectrum Center","location":"Charlotte, United States","date":"01/22/2019"}
+
+{"venue":"Barclays Center","location":"Brooklyn, United States","date":"01/16/2019"}
+
+{"venue":"John Paul Jones Arena","location":"Charlottesville, United States","date":"01/23/2019"}
+
+{"venue":"U.S. Bank Arena","location":"Cincinnati, United States","date":"01/26/2019"}
+
+{"venue":"Bridgestone Arena","location":"Nashville, United States","date":"01/25/2019"}
+
+{"venue":"Fiserv Forum","location":"Milwaukee, United States","date":"01/27/2019"}
+
+{"venue":"The Van Andel Arena","location":"Grand Rapids, United States","date":"01/29/2019"}
+
+{"venue":"Quicken Loans Arena","location":"Cleveland, United States","date":"01/30/2019"}
+
+{"venue":"CenturyLink Center","location":"Omaha, United States","date":"02/01/2019"}
+
+{"venue":"Sprint Center","location":"Kansas City, United States","date":"02/02/2019"}
+
+{"venue":"Allstate Arena","location":"Rosemont, United States","date":"02/04/2019"}
+
+{"venue":"Enterprise Center","location":"Saint Louis, United States","date":"02/05/2019"}
+
+{"venue":"FedExForum","location":"Memphis, United States","date":"02/06/2019"}
+
+{"venue":"Frank Erwin Center","location":"Austin, United States","date":"02/08/2019"}
+
+{"venue":"Smoothie King Center","location":"New Orleans, United States","date":"02/09/2019"}
+
+{"venue":"Tingley Coliseum","location":"Albuquerque, United States","date":"02/12/2019"}
+
+{"venue":"Honda Center","location":"Anaheim, United States","date":"02/14/2019"}
+
+{"venue":"The Forum","location":"Inglewood, United States","date":"02/15/2019"}
+
+{"venue":"Valley View Casino Center","location":"San Diego, United States","date":"02/16/2019"}
+
+{"venue":"ORACLE Arena","location":"Oakland, United States","date":"02/19/2019"}
+
+{"venue":"Golden1 Center","location":"Sacramento, United States","date":"02/20/2019"}
+
+{"venue":"Stadthalle","location":"Offenbach, Germany","date":"03/14/2019"}
+
+{"venue":"Columbiahalle ","location":"Berlin, Germany","date":"03/15/2019"}
+
+{"venue":"Mitsubishi Electric Halle","location":"Düsseldorf, Germany","date":"03/16/2019"}
+
+{"venue":"AFAS Live","location":"Amsterdam, Netherlands","date":"03/18/2019"}
+
+{"venue":"Zenith","location":"Paris, France","date":"03/19/2019"}
+
+{"venue":"Lotto Arena","location":"Antwerp, Belgium","date":"03/21/2019"}
+
+{"venue":"SSE Hydro","location":"Glasgow, United Kingdom","date":"03/24/2019"}
+
+{"venue":"Motorpoint Arena","location":"Cardiff, United Kingdom","date":"03/25/2019"}
+
+{"venue":"Arena Birmingham","location":"Birmingham, United Kingdom","date":"03/26/2019"}
+
+{"venue":"The O2","location":"London, United Kingdom","date":"03/28/2019"}
+
+{"venue":"The O2","location":"London, United Kingdom","date":"03/29/2019"}
+
+{"venue":"Manchester Arena","location":"Manchester, United Kingdom","date":"03/30/2019"}

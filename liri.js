@@ -63,7 +63,7 @@ function queryAPIS() {
 
 function appendLog(data) {
     let stream = fs.createWriteStream("log.txt", {flags: "a"});
-    stream.write(`${data}\n`);
+    stream.write(`\n${data}\n`);
     stream.end();
 }
 

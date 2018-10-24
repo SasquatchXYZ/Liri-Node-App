@@ -82,10 +82,10 @@ This will cause LIRI to read from the 'random.txt' file included in the repo and
 * [Screenshot](Screenshots/do-what-it-says.png) 
 
 Additionally, the search parameters, along with the corresponding data returned from the APIs is written to the 'log.txt' file.  To keep a record of the past search queries and data returned.
-* [Log Screenshot - Concert](Screenshots/concert-this-log.png)
-* [Log Screenshot - Spotify](Screenshots/spotify-this-song-log.png)
-* [Log Screenshot - OMDB](Screenshots/movie-this-log.png)
-* [Log Screenshot - Do What it Says](Screenshots/do-what-it-says-log.png)
+* [Screenshot - Concert - Log](Screenshots/concert-this-log.png)
+* [Screenshot - Spotify - Log](Screenshots/spotify-this-song-log.png)
+* [Screenshot - OMDB - Log](Screenshots/movie-this-log.png)
+* [Screenshot - Do What it Says - Log](Screenshots/do-what-it-says-log.png)
 
 (I chose to leave in some of the portions of commented-out code in the functions that would log the data to the console.  This was the original method for printing the data to the console, however I chose to simply log the object due to the fact that color difference allowed the data to be easier to read.)
 
@@ -95,6 +95,7 @@ Additionally, the search parameters, along with the corresponding data returned 
 * [Spotify API](https://developer.spotify.com/documentation/web-api/) - API
 * [BandsinTown API](http://www.artists.bandsintown.com/bandsintown-api) - API
 * [OMDB API](http://www.omdbapi.com/) - API
+* [gitignore.io](https://www.gitignore.io/) - For creating the .gitignore
 * [WebStorm](https://www.jetbrains.com/webstorm/) - IDE
 
 ## Authors

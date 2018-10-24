@@ -226,3 +226,68 @@ Search: spotify-this-song + misery,business
 {"artist":"Paramore","title":"Misery Business - Live From Chicago","previewLink":"https://p.scdn.co/mp3-preview/c8d0434b251c8ba1a27b19a3b260897d878067c8?cid=b6f059acda4a45c59d10e0d802be10f1","album":"The Final RIOT! (Live)"}
 {"artist":"Cole Rolland","title":"Misery Business (Feat. Lauren Babic and Andrew Baena)","previewLink":"https://p.scdn.co/mp3-preview/d5ec9a855678339ee3b96d2883740787351e6da7?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Cole Rolland Remixes Vol. 2"}
 {"artist":"Sea Of Treachery","title":"Misery Business (Cover Version)","previewLink":"https://p.scdn.co/mp3-preview/de08bdf2905ba74c4fdf630bffae0ea216cf5111?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Wonderland"}
+Search: concert-this + good,charlotte
+{"venue":"Phase 2 Dining & Entertainment","location":"Lynchburg, United States","date":"10/20/2018"}
+{"venue":"The Fillmore - Philadelphia","location":"Philadelphia, United States","date":"10/21/2018"}
+{"venue":"Palladium","location":"Worcester, United States","date":"10/23/2018"}
+{"venue":"REBEL","location":"Toronto, Canada","date":"10/25/2018"}
+{"venue":"MTELUS","location":"Montreal, Canada","date":"10/26/2018"}
+{"venue":"S.I. Hall - NYS Fairgrounds","location":"Syracuse, United States","date":"10/27/2018"}
+{"venue":"Agora Theater & Ballroom","location":"Cleveland, United States","date":"10/28/2018"}
+{"venue":"The Fillmore Detroit","location":"Detroit, United States","date":"11/01/2018"}
+{"venue":"Terminal 5","location":"New York, United States","date":"10/29/2018"}
+{"venue":"Express Live!","location":"Columbus, United States","date":"11/02/2018"}
+{"venue":"20 Monroe Live","location":"Grand Rapids, United States","date":"11/03/2018"}
+{"venue":"Riviera Theatre","location":"Chicago, United States","date":"11/04/2018"}
+{"venue":"Skyway Theater","location":"Minneapolis, United States","date":"11/06/2018"}
+{"venue":"House of Blues Dallas","location":"Dallas, United States","date":"11/11/2018"}
+{"venue":"House of Blues Houston","location":"Houston, United States","date":"11/12/2018"}
+{"venue":"Rockwell At The Complex","location":"Salt Lake City, United States","date":"11/15/2018"}
+{"venue":"Aztec Theatre","location":"San Antonio, United States","date":"11/10/2018"}
+{"venue":"Ogden Theatre","location":"Denver, United States","date":"11/14/2018"}
+{"venue":"Revolution Concert House","location":"Garden City, United States","date":"11/16/2018"}
+{"venue":"Roseland Theater","location":"Portland, United States","date":"11/17/2018"}
+{"venue":"Showbox SoDo","location":"Seattle, United States","date":"11/18/2018"}
+{"venue":"The Warfield","location":"San Francisco, United States","date":"11/20/2018"}
+{"venue":"Hollywood Palladium","location":"Los Angeles, United States","date":"11/21/2018"}
+{"venue":"Pearl Concert Theater at Palms Casino Resort","location":"Las Vegas, United States","date":"11/24/2018"}
+{"venue":"The Van Buren","location":"Phoenix, United States","date":"11/23/2018"}
+{"venue":"Sunshine Theater","location":"Albuquerque, United States","date":"11/26/2018"}
+{"venue":"Diamond Ballroom","location":"Oklahoma City, United States","date":"11/27/2018"}
+{"venue":"Arvest Bank Theatre At the Midland","location":"Kansas City, United States","date":"11/28/2018"}
+{"venue":"Planet.tt Bank Austria Halle Gasometer","location":"Wien, Austria","date":"01/31/2019"}
+{"venue":"Alcatraz","location":"Milan, Italy","date":"02/03/2019"}
+{"venue":"Komplex 457","location":"Zurich, Switzerland","date":"02/01/2019"}
+{"venue":"Zenith, die Kulturhalle","location":"Munchen, Germany","date":"02/04/2019"}
+{"venue":"Palladium","location":"Koln, Germany","date":"02/05/2019"}
+{"venue":"Ancienne Belgique","location":"Brussels, Belgium","date":"02/07/2019"}
+{"venue":"Zenith Paris - La Villette","location":"Paris, France","date":"02/08/2019"}
+{"venue":"Stadthalle Offenbach","location":"Offenbach Am Main, Germany","date":"02/09/2019"}
+{"venue":"Forum Karlin","location":"Prague, Czech Republic","date":"02/11/2019"}
+{"venue":"Klub Stodoła","location":"Warsaw, Poland","date":"02/12/2019"}
+{"venue":"Columbiahalle","location":"Berlin, Germany","date":"02/13/2019"}
+{"venue":"Rockhal","location":"Roeser, Luxembourg","date":"02/15/2019"}
+{"venue":"sporthalle hamburg","location":"Hamburg-nord, Germany","date":"02/16/2019"}
+{"venue":"Poppodium 013","location":"Tilburg, Netherlands","date":"02/18/2019"}
+{"venue":"Alexandra Palace","location":"London, United Kingdom","date":"02/20/2019"}
+do-what-it-says ... reading from 'random.txt'
+Search: spotify-this-song + I,Want,it,That,Way
+{"artist":"Backstreet Boys","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=b6f059acda4a45c59d10e0d802be10f1","album":"The Hits--Chapter One"}
+{"artist":"Backstreet Boys","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Millennium"}
+{"artist":"Tyler and Mark","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Beautiful Dreams"}
+{"artist":"Dynamite Boy","title":"I Want It That Way","previewLink":null,"album":"Punk Goes Pop"}
+{"artist":"Anthem Lights","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Covers Part IV"}
+Search: spotify-this-song + Masterpiece,theater
+{"artist":"Louis York","title":"Things I Should've Said","previewLink":"https://p.scdn.co/mp3-preview/d6cf74e7c2daf45585b99a9b998f6d5970dbc8cd?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theater - Act I"}
+{"artist":"Mouret","title":"Mouret: Rondeau (\"Masterpiece Theater\" Theme) - Produced","previewLink":"https://p.scdn.co/mp3-preview/02eb4843e238b15943b0749e729f2c640bc0f282?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Digital Pipes: The Splendor of the Organ"}
+{"artist":"Louis York","title":"Slow Motion","previewLink":"https://p.scdn.co/mp3-preview/bda267db1ca8267f414a0d436d0c1a9f4cb33a66?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theater - Act I"}
+{"artist":"Louis York","title":"Raging Bull","previewLink":"https://p.scdn.co/mp3-preview/bbb46d43df9ed11ce0a70e3860196f3437fad235?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theater - Act II"}
+{"artist":"Louis York","title":"Valentine","previewLink":"https://p.scdn.co/mp3-preview/8c904cde97a1eb430f995f7ff9c5d9b39857e2c8?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theater - Act I"}
+Search: spotify-this-song + Masterpiece,theatre
+{"artist":"Marianas Trench","title":"Good To You","previewLink":"https://p.scdn.co/mp3-preview/b9ff27b88d5eb6fa71ec02e63c54fed49a2bda83?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theatre"}
+{"artist":"Marianas Trench","title":"Masterpiece Theatre III","previewLink":"https://p.scdn.co/mp3-preview/6f592e2bec60a5443359531332bb4e89cb8a0c79?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theatre"}
+{"artist":"Marianas Trench","title":"All To Myself","previewLink":"https://p.scdn.co/mp3-preview/1224e82d6bf039ef64929018f2d5436b095d0c3a?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theatre"}
+{"artist":"Marianas Trench","title":"Cross My Heart","previewLink":"https://p.scdn.co/mp3-preview/adda0b74834b32029f84fb046afd54aca1682b07?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theatre"}
+{"artist":"Marianas Trench","title":"Celebrity Status","previewLink":"https://p.scdn.co/mp3-preview/ccc3e20cded8ee973adb96a9b74975956ac1a082?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Masterpiece Theatre"}
+Search: movie-this + deadpool
+{"title":"Deadpool","releaseYear":"2016","rated":"R","imdbRating":"8.0/10","rottenTomatoesRating":"84%","country":"USA","language":"English","plot":"A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.","actors":"Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer"}

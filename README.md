@@ -4,6 +4,8 @@
 
 LIRI is somewhat akin to SIRI; however, while SIRI is a "Speech Interpretation and Recognition Interface", LIRI is a "Language Interpretation and Recognition Interface".  LIRI is a command line node application that is used to provide you with data given certain parameters and requests.
 
+[LIRI-Node-App](Screenshots/LIRIBot.gif) 
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.

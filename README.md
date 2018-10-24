@@ -98,6 +98,7 @@ Additionally, the search parameters, along with the corresponding data returned 
 * [BandsinTown API](http://www.artists.bandsintown.com/bandsintown-api) - API
 * [OMDB API](http://www.omdbapi.com/) - API
 * [gitignore.io](https://www.gitignore.io/) - For creating the .gitignore
+* [Screencastify](https://www.screencastify.com/) - For screenshots/video in the README.md
 * [WebStorm](https://www.jetbrains.com/webstorm/) - IDE
 
 ## Authors

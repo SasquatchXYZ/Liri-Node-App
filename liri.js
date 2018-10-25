@@ -16,7 +16,7 @@ const omdbAPIkey = keys.omdbAPIKey;
 // Start of LIRI-Node-App Operations ===================================================================================
 
 // Registering the command and parameters given to start LIRI.
-let [ , , command, ...parameter] = process.argv;
+let [, , command, ...parameter] = process.argv;
 //console.log(command, parameter);
 
 // If the initial command given is 'do-what-it-says' we first need to read from the 'random.txt' file in order to

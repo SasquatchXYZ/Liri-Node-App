@@ -110,3 +110,33 @@ Search: spotify-this-song + I,Want,it,That,Way
 {"artist":"Anthem Lights","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Covers Part IV"}
 
 {"artist":"Manuel Costa","title":"I Want It That Way","previewLink":"https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=b6f059acda4a45c59d10e0d802be10f1","album":"I Want It That Way"}
+
+Search: movie-this + 
+
+Search: movie-this + 
+
+Search: movie-this + deadpool
+
+{"title":"Deadpool","releaseYear":"2016","rated":"R","imdbRating":"8.0/10","rottenTomatoesRating":"84%","country":"USA","language":"English","plot":"A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.","actors":"Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer"}
+
+Search: movie-this + deadpool
+
+{"title":"Deadpool","releaseYear":"2016","rated":"R","imdbRating":"8.0/10","rottenTomatoesRating":"84%","country":"USA","language":"English","plot":"A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.","actors":"Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer"}
+
+Search: movie-this + empire,strikes,back
+
+{"title":"Star Wars: Episode V - The Empire Strikes Back","releaseYear":"1980","rated":"PG","imdbRating":"8.8/10","rottenTomatoesRating":"95%","country":"USA","language":"English","plot":"After the rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"}
+
+Search: movie-this + empire,strikes,back
+
+{"title":"Star Wars: Episode V - The Empire Strikes Back","releaseYear":"1980","rated":"PG","imdbRating":"8.8/10","rottenTomatoesRating":"95%","country":"USA","language":"English","plot":"Luke Skywalker, Han Solo, Princess Leia and Chewbacca face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"}
+
+Search: movie-this + empire,strikes,back
+
+Search: movie-this + empire,strikes,back
+
+Search: movie-this + empire,strikes,back
+
+Search: movie-this + empire,strikes,back
+
+{"title":"Star Wars: Episode V - The Empire Strikes Back","releaseYear":"1980","rated":"PG","imdbRating":"8.8/10","rottenTomatoesRating":"95%","country":"USA","language":"English","plot":"Luke Skywalker, Han Solo, Princess Leia and Chewbacca face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"}

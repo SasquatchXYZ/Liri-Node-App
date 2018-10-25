@@ -156,22 +156,24 @@ function queryOMDB() {
     }
     //console.log(movieTitle);
 
-    let queryURL = `http://www.omdbapi.com/?t=${movieTitle}&y=&plot=short&apikey=${omdbAPIkey}`;
+    let queryURL = `http://www.omdbapi.com/?t=${movieTitle}&y=&plot=full&apikey=${omdbAPIkey}`;
 
     request(queryURL, function (error, response, body) {
         if (!error && response.statusCode === 200) {
+            //console.log(body);
             //console.log(JSON.parse(body));
+            let results = JSON.parse(body);
 
             let moviedata = {};
-            moviedata.title = JSON.parse(body).Title;
-            moviedata.releaseYear = JSON.parse(body).Year;
-            moviedata.rated = JSON.parse(body).Rated;
-            moviedata.imdbRating = JSON.parse(body).Ratings[0].Value;
-            moviedata.rottenTomatoesRating = JSON.parse(body).Ratings[1].Value;
-            moviedata.country = JSON.parse(body).Country;
-            moviedata.language = JSON.parse(body).Language;
-            moviedata.plot = JSON.parse(body).Plot;
-            moviedata.actors = JSON.parse(body).Actors;
+            moviedata.title = results.Title;
+            moviedata.releaseYear = results.Year;
+            moviedata.rated = results.Rated;
+            moviedata.imdbRating = results.Ratings[0].Value;
+            moviedata.rottenTomatoesRating = results.Ratings[1].Value;
+            moviedata.country = results.Country;
+            moviedata.language = results.Language;
+            moviedata.plot = results.Plot;
+            moviedata.actors = results.Actors;
 
             console.log(moviedata);
 

@@ -1,26 +1,26 @@
+// Loading Environmental Variables - API Keys.
 require("dotenv").config();
 
+// Requiring Node Modules Needed to run LIRI.
 const fs = require("fs");
 const request = require("request");
 const moment = require("moment");
 const keys = require("./keys");
 const Spotify = require("node-spotify-api");
 
-const bandsAPIkey = "codingbootcamp";
+// Passing the API Keys to variables.
+const bandsAPIkey = keys.bandsAPIkey;
 const spotify = new Spotify(keys.spotify);
-const omdbAPIkey = "trilogy";
-// console.log(spotify);
+const omdbAPIkey = keys.omdbAPIKey;
 
-let command = process.argv[2];
-let parameter = [];
-for (k = 3; k < process.argv.length; k++) {
-    parameter.push(process.argv[k]);
-}
-console.log(command, parameter);
+// Start of LIRI-Node-App Operations ===================================================================================
+
+// Registering the command and parameters given to start LIRI.
+let [ , , command, ...parameter] = process.argv;
+//console.log(command, parameter);
 
 // If the initial command given is 'do-what-it-says' we first need to read from the 'random.txt' file in order to
 // determine exactly what is specified in the file and to run the proper query for the data found there.
-
 if (command === `do-what-it-says`) {
     appendLog((`${command} ... reading from 'random.txt'`));
     queryRandom();
@@ -90,28 +90,33 @@ function queryRandom() {
 function queryBandsInTown() {
     let artist = parameter.join("%20");
     let queryURL = `https://rest.bandsintown.com/artists/${artist}/events?app_id=${bandsAPIkey}`;
-    console.log(artist);
-    console.log(queryURL);
+    //console.log(artist);
+    //console.log(queryURL);
 
     request(queryURL, function (error, response, data) {
         if (!error && response.statusCode === 200) {
             let results = JSON.parse(data);
             //console.log(results);
             //console.log(results.length);
-            for (var k = 0; k < results.length; k++) {
-                let concerts = {};
-                concerts.venue = results[k].venue.name;
-                concerts.location = `${results[k].venue.city} ${results[k].venue.region}, ${results[k].venue.country}`;
-                concerts.date = moment(results[k].datetime).format("MM/DD/YYYY");
-                console.log(`==================================================================`);
-                console.log(concerts);
 
-                appendLog(JSON.stringify(concerts));
+            if (results.length === 0) {
+                console.log(`There are no upcoming concerts for ${artist}`);
+                appendLog(`There are no upcoming concerts for ${artist}`);
+            } else {
+                results.forEach(function (events) {
+                    let concerts = {};
+                    concerts.venue = events.venue.name;
+                    concerts.location = `${events.venue.city} ${events.venue.region}, ${events.venue.country}`;
+                    concerts.date = moment(events.datetime).format("MM/DD/YYYY");
+                    console.log(`--------------------------------------------------------------------------------------`);
+                    console.log(concerts);
 
-                /*console.log(`Venue Name: ${concerts.venue}`);
-                console.log(`Venue Location: ${concerts.location}`);
-                console.log(`Date: ${concerts.date}`);*/
+                    appendLog(JSON.stringify(concerts));
 
+                    /*console.log(`Venue Name: ${concerts.venue}`);
+                    console.log(`Venue Location: ${concerts.location}`);
+                    console.log(`Date: ${concerts.date}`);*/
+                })
             }
         }
     });
@@ -127,7 +132,7 @@ function querySpotify() {
         }
         //console.log(data.tracks.items);
         let resultArray = data.tracks.items;
-        resultArray.forEach(function(result) {
+        resultArray.forEach(function (result) {
             let songDetails = {};
             songDetails.title = result.name;
             songDetails.artist = result.artists[0].name;
@@ -138,12 +143,12 @@ function querySpotify() {
             console.log(songDetails);
 
             appendLog(JSON.stringify(songDetails));
-        })
 
             /*console.log(`Artist: ${songDetails.artist}`);
         console.log(`Song Title: ${songDetails.title}`);
         console.log(`Preview Link: ${songDetails.previewLink}`);
         console.log(`Album Title: ${songDetails.album}`);*/
+        })
     });
 }
 
@@ -187,7 +192,6 @@ function queryOMDB() {
             console.log(`Language: ${moviedata.language}`);
             console.log(`Plot: ${moviedata.plot}`);
             console.log(`Actors: ${moviedata.actors}`);*/
-
         }
     });
 }

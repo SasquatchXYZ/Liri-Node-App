@@ -44,17 +44,6 @@ function queryAPIS() {
             queryOMDB();
             break;
     }
-
-    /*    if (command === `concert-this`) {
-            appendLog((`${command} + ${parameter}`));
-            queryBandsInTown();
-        } else if (command === `spotify-this-song`) {
-            appendLog((`${command} + ${parameter}`));
-            querySpotify();
-        } else if (command === `movie-this`) {
-            appendLog((`${command} + ${parameter}`));
-            queryOMDB();
-        }*/
 }
 
 // Function to Log the Query Commands as well as the Data returned to the 'log.txt' file.
@@ -108,7 +97,7 @@ function queryBandsInTown() {
                     concerts.venue = events.venue.name;
                     concerts.location = `${events.venue.city} ${events.venue.region}, ${events.venue.country}`;
                     concerts.date = moment(events.datetime).format("MM/DD/YYYY");
-                    console.log(`--------------------------------------------------------------------------------------`);
+                    console.log(`------------------------------------------------------------------------------------`);
                     console.log(concerts);
 
                     appendLog(JSON.stringify(concerts));

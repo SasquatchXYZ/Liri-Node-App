@@ -140,3 +140,69 @@ Search: movie-this + empire,strikes,back
 Search: movie-this + empire,strikes,back
 
 {"title":"Star Wars: Episode V - The Empire Strikes Back","releaseYear":"1980","rated":"PG","imdbRating":"8.8/10","rottenTomatoesRating":"95%","country":"USA","language":"English","plot":"Luke Skywalker, Han Solo, Princess Leia and Chewbacca face attack by the Imperial forces and its AT-AT walkers on the ice planet Hoth. While Han and Leia escape in the Millennium Falcon, Luke travels to Dagobah in search of Yoda. Only with the Jedi master's help will Luke survive when the dark side of the Force beckons him into the ultimate duel with Darth Vader.","actors":"Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams"}
+
+Search: spotify-this-song + brick,by,boring,brick
+
+Search: spotify-this-song + brick,by,boring,brick
+
+Search: spotify-this-song + brick,by,boring,brick
+
+Search: spotify-this-song + brick,by,boring,brick
+
+{"artist":"Paramore","title":"Brick By Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/460c8f767ee32d8a9dd3bfea92f595e295bffc0c?cid=b6f059acda4a45c59d10e0d802be10f1","album":"brand new eyes"}
+
+{"artist":"Paramore","title":"Brick by Boring Brick - Live at Red Rocks","previewLink":"https://p.scdn.co/mp3-preview/c9bf837da369277300419b3598797e48c3563e53?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Paramore: Self-Titled Deluxe"}
+
+{"artist":"Vitamin String Quartet","title":"Brick by Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/1fc31fffba69fb9a53a31f115ba16742c3974304?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Vitamin String Quartet Performs Paramore's Brand New Eyes"}
+
+{"artist":"Michael Henry & Justin Robinett","title":"Brick By Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/aca4f01c511519faaf1d23f9ead91628cf4e6bb3?cid=b6f059acda4a45c59d10e0d802be10f1","album":"MHJR Piano"}
+
+{"artist":"Sparrow Sleeps","title":"Brick By Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/b2ef9890be937a59d84530dec677833f8a2095ae?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Quiet!: Lullaby renditions of Paramore songs"}
+
+Search: spotify-this-song + brick,by,boring,brick
+
+{"artist":"Paramore","title":"Brick By Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/460c8f767ee32d8a9dd3bfea92f595e295bffc0c?cid=b6f059acda4a45c59d10e0d802be10f1","album":"brand new eyes"}
+
+{"artist":"Paramore","title":"Brick by Boring Brick - Live at Red Rocks","previewLink":"https://p.scdn.co/mp3-preview/c9bf837da369277300419b3598797e48c3563e53?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Paramore: Self-Titled Deluxe"}
+
+{"artist":"Vitamin String Quartet","title":"Brick by Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/1fc31fffba69fb9a53a31f115ba16742c3974304?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Vitamin String Quartet Performs Paramore's Brand New Eyes"}
+
+{"artist":"Sparrow Sleeps","title":"Brick By Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/b2ef9890be937a59d84530dec677833f8a2095ae?cid=b6f059acda4a45c59d10e0d802be10f1","album":"Quiet!: Lullaby renditions of Paramore songs"}
+
+{"artist":"Michael Henry & Justin Robinett","title":"Brick By Boring Brick","previewLink":"https://p.scdn.co/mp3-preview/aca4f01c511519faaf1d23f9ead91628cf4e6bb3?cid=b6f059acda4a45c59d10e0d802be10f1","album":"MHJR Piano"}
+
+Search: spotify-this-song + brick,by,boring,brick
+
+{"title":"Brick By Boring Brick","artist":"Paramore","album":"brand new eyes","previewLink":"https://p.scdn.co/mp3-preview/460c8f767ee32d8a9dd3bfea92f595e295bffc0c?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick by Boring Brick - Live at Red Rocks","artist":"Paramore","album":"Paramore: Self-Titled Deluxe","previewLink":"https://p.scdn.co/mp3-preview/c9bf837da369277300419b3598797e48c3563e53?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick by Boring Brick","artist":"Vitamin String Quartet","album":"Vitamin String Quartet Performs Paramore's Brand New Eyes","previewLink":"https://p.scdn.co/mp3-preview/1fc31fffba69fb9a53a31f115ba16742c3974304?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick By Boring Brick","artist":"Sparrow Sleeps","album":"Quiet!: Lullaby renditions of Paramore songs","previewLink":"https://p.scdn.co/mp3-preview/b2ef9890be937a59d84530dec677833f8a2095ae?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick By Boring Brick","artist":"Michael Henry & Justin Robinett","album":"MHJR Piano","previewLink":"https://p.scdn.co/mp3-preview/aca4f01c511519faaf1d23f9ead91628cf4e6bb3?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+Search: spotify-this-song + brick,by,boring,brick
+
+{"title":"Brick By Boring Brick","artist":"Paramore","album":"brand new eyes","previewLink":"https://p.scdn.co/mp3-preview/460c8f767ee32d8a9dd3bfea92f595e295bffc0c?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick by Boring Brick - Live at Red Rocks","artist":"Paramore","album":"Paramore: Self-Titled Deluxe","previewLink":"https://p.scdn.co/mp3-preview/c9bf837da369277300419b3598797e48c3563e53?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick by Boring Brick","artist":"Vitamin String Quartet","album":"Vitamin String Quartet Performs Paramore's Brand New Eyes","previewLink":"https://p.scdn.co/mp3-preview/1fc31fffba69fb9a53a31f115ba16742c3974304?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick By Boring Brick","artist":"Sparrow Sleeps","album":"Quiet!: Lullaby renditions of Paramore songs","previewLink":"https://p.scdn.co/mp3-preview/b2ef9890be937a59d84530dec677833f8a2095ae?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Brick By Boring Brick","artist":"Michael Henry & Justin Robinett","album":"MHJR Piano","previewLink":"https://p.scdn.co/mp3-preview/aca4f01c511519faaf1d23f9ead91628cf4e6bb3?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+Search: spotify-this-song + ass,back,home
+
+{"title":"Ass Back Home (feat. Neon Hitch)","artist":"Gym Class Heroes","album":"The Papercut Chronicles II","previewLink":"https://p.scdn.co/mp3-preview/bcd6317a2ba387505134abd2c895344fd91101dd?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Ass Back Home","artist":"Secrets","album":"Punk Goes Pop 5","previewLink":"https://p.scdn.co/mp3-preview/4b760ec83985c177c96eee53a1903f4529394299?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"ASS Back Home","artist":"Where You Going","album":"Get Yourself Back Home","previewLink":"https://p.scdn.co/mp3-preview/322dbc0a633637c0fcb424aaa8821313e6f5252c?cid=b6f059acda4a45c59d10e0d802be10f1"}
+
+{"title":"Ass Back Home","artist":"Secrets","album":"Punk Goes Pop, Vol. 5","previewLink":null}
+
+{"title":"Ass Back Home - feat. Neon Hitch [Ken Loi Extended Mix]","artist":"Gym Class Heroes","album":"Ass Back Home (feat. Neon Hitch) [Remixes]","previewLink":"https://p.scdn.co/mp3-preview/4a7d7ba1d22dc0fbfca3f60d5e2bf3ec62616653?cid=b6f059acda4a45c59d10e0d802be10f1"}

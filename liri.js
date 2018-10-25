@@ -125,25 +125,25 @@ function querySpotify() {
         if (error) {
             return console.log(`Error Occurred: ${error}`);
         }
+        //console.log(data.tracks.items);
         let resultArray = data.tracks.items;
-        /*console.log(result);*/
-        for (let w = 0; w < resultArray.length; w++) {
+        resultArray.forEach(function(result) {
             let songDetails = {};
-            songDetails.artist = resultArray[w].artists[0].name;
-            songDetails.title = resultArray[w].name;
-            songDetails.previewLink = resultArray[w].preview_url;
-            songDetails.album = resultArray[w].album.name;
+            songDetails.title = result.name;
+            songDetails.artist = result.artists[0].name;
+            songDetails.album = result.album.name;
+            songDetails.previewLink = result.preview_url;
 
-            console.log(`==================================================================`);
+            console.log(`--------------------------------------------------------------------------------------------`);
             console.log(songDetails);
 
             appendLog(JSON.stringify(songDetails));
+        })
 
             /*console.log(`Artist: ${songDetails.artist}`);
         console.log(`Song Title: ${songDetails.title}`);
         console.log(`Preview Link: ${songDetails.previewLink}`);
         console.log(`Album Title: ${songDetails.album}`);*/
-        }
     });
 }
 

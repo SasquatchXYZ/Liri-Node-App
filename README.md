@@ -4,7 +4,7 @@
 
 LIRI is somewhat akin to SIRI; however, while SIRI is a "Speech Interpretation and Recognition Interface", LIRI is a "Language Interpretation and Recognition Interface".  LIRI is a command line node application that is used to provide you with data given certain parameters and requests.
 
-[LIRI-Node-App](Screenshots/LIRIBot.gif) 
+![LIRI-Node-App](Screenshots/LIRIBot.gif) 
 
 ## Getting Started
 
@@ -60,28 +60,31 @@ concert-this <artist/band name here>
 ```
 
 In doing so, LIRI will query BandsinTown for upcoming concerts by the artist and display the venue, location, and date of the performance.  
-* [Screenshot](Screenshots/concert-this.png) 
+![Screenshot](Screenshots/concert-this.png) 
 
 ```
 spotify-this-song <song name here>
 ```
 
 This prompts LIRI to query the Spotify API for the song name, where it will then display the artist, song name, preview link (if available), and the album for the song.  I chose to change the search functions for this so that it would return 5 songs instead of just one, in order to ensure the proper one was actually returned, and not just another of the same name (for those searching for alternative/obscure artists).
-* [Screenshot](Screenshots/spotify-this-song.png) 
+
+![Screenshot](Screenshots/spotify-this-song.png) 
 
 ```
 movie-this <movie title here>
 ```
 
 This will query the OMDB API for the movie title, year of release, ratings, country, language, plot, and actors in the movie.  (If no movie is entered, it will display the information for 'Mr. Nobody").
-* [Screenshot](Screenshots/movie-this.png) 
+
+![Screenshot](Screenshots/movie-this.png) 
 
 ```
 do-what-it-says
 ```
 
 This will cause LIRI to read from the 'random.txt' file included in the repo and then she will perform one of the commands based on the data included in that file.
-* [Screenshot](Screenshots/do-what-it-says.png) 
+
+![Screenshot](Screenshots/do-what-it-says.png) 
 
 Additionally, the search parameters, along with the corresponding data returned from the APIs is written to the 'log.txt' file.  To keep a record of the past search queries and data returned.
 * [Screenshot - Concert - Log](Screenshots/concert-this-log.png)
